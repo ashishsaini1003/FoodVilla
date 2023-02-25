@@ -1,0 +1,22 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is a web app",
+  "main": "app.js",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishsaini1003/React.git"
+  },
+  "author": "Ashish Saini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashishsaini1003/React/issues"
+  },
+  "homepage": "https://github.com/ashishsaini1003/React#readme"
+}
