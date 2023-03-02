@@ -1,6 +1,6 @@
 
 #logo{
-    width: 6%;
+    width: 10%;
     margin-left: 5px;
 }
 
@@ -15,14 +15,13 @@
     display: flex;
     list-style-type: none;
 }
-
 #Header > ul > li{
     padding: 5px;
 }
 
 #Body{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding-top: 15px;
     flex-wrap: wrap;
 }
@@ -38,4 +37,9 @@
     width: 100%;
     border: 1px solid black;
     align-items: center;
+}
+
+#search{
+    padding-top: 10px;
+    padding-left: 40%;
 }
