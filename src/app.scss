@@ -1,0 +1,41 @@
+
+#logo{
+    width: 6%;
+    margin-left: 5px;
+}
+
+#Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+#Header > ul{
+    display: flex;
+    list-style-type: none;
+}
+
+#Header > ul > li{
+    padding: 5px;
+}
+
+#Body{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    flex-wrap: wrap;
+}
+
+#card{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+
+}
+#card > img{
+    width: 100%;
+    border: 1px solid black;
+    align-items: center;
+}
