@@ -19,6 +19,9 @@ const Body = () =>{
            {restaurant?.map((restaurant)=>{
                 return <RestaurantCard restaurant={restaurant.data}/>;
            })}
+            {restaurant?.map((restaurant)=>{
+                return <RestaurantCard restaurant={restaurant.data}/>;
+           })}
         </div>
         </>
     )
