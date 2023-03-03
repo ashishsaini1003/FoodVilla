@@ -5,7 +5,8 @@ const RestaurantCard=(props)=>{
         <div id="card" >
             <img alt= "Item" src= {IMG_CDN_URL+props.restaurant.cloudinaryImageId}/>
             <h2 style={{color:"red"}}>{props.restaurant.name}</h2>
-            <h4>{props.restaurant.cuisines.join(", ")}</h4>
+            <h4>{(props.restaurant.cuisines.length>4)?props.restaurant.cuisines.slice(0,4).join(", "):props.restaurant.cuisines.join(", ")}</h4>
+            {/* <h4>{props.restaurant.cuisines.slice(0,2)}</h4> */}
         </div>
     )
 }

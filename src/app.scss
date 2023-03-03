@@ -51,3 +51,27 @@
     padding-top: 10px;
     padding-left: 40%;
 }
+
+
+.shimmer {
+    background-color: #f6f7f8;
+    border-radius: 4px;
+    padding: 16px;
+  }
+  
+  .shimmer-box {
+    background-color: #e9edf1;
+    height: 16px;
+    margin-bottom: 8px;
+    width: 100%;
+    animation: shimmer 1s infinite;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -1000px 0;
+    }
+    100% {
+      background-position: 1000px 0;
+    }
+  }
