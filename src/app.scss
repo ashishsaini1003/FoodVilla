@@ -1,77 +1,79 @@
 
-#logo{
-    width: 20%;
-    margin: 5px;
+*{
+    padding: 0;
+    margin: 0;
+ }
+.logo{
+    width: 40%;
 }
 
-#Header{
+.Header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
-#Header > ul{
+.Header > ul{
     display: flex;
     list-style-type: none;
 }
-#Header > ul > li{
+.Header > ul > li{
     padding: 5px;
 }
 
-#Body{
+.Body{
     display: flex;
     justify-content: flex-start;
     padding-top: 15px;
     flex-wrap: wrap;
 }
 
-#card{
+.card{
     border: 2px solid black;
     border-radius: 10%;
     padding: 10px;
     margin: 10px;
     width: 200px;
+    height: 300px;
 
 }
-#card:hover{
+.card:hover{
     background-color: lavender;
     border: 2px solid red;
     transform: scale(1.2);
 
 }
-#card > img{
+.card > img{
     width: 100%;
     border: 1px solid black;
     align-items: center;
     border-radius: 50%;
 }
 
-#search{
+.card > h4{
+    padding-top: 30px;
+    color:black;
+}
+.search{
     padding-top: 10px;
-    padding-left: 40%;
+    padding-left: 42%;
 }
 
+.shimmer{
+    width: 200px;
+    height: 300px;
+    background-color: lightgray;
+    margin:10px;
+}
 
-.shimmer {
-    background-color: #f6f7f8;
-    border-radius: 4px;
-    padding: 16px;
-  }
-  
-  .shimmer-box {
-    background-color: #e9edf1;
-    height: 16px;
-    margin-bottom: 8px;
-    width: 100%;
-    animation: shimmer 1s infinite;
-  }
-  
-  @keyframes shimmer {
-    0% {
-      background-position: -1000px 0;
-    }
-    100% {
-      background-position: 1000px 0;
-    }
-  }
+.menu{
+    display: flex;
+}
+.menu > div{
+    margin:20px;
+}
+
+.restaurantcard{
+    text-decoration:none;
+}

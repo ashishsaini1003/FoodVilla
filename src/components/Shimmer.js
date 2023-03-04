@@ -4,9 +4,9 @@ import RestaurantCard from "./RestaurantCard"
 const Shimmer=()=>{
     const [restaurant,setRestaurant]=useState([]);
     return(
-        <>
-        <h2>THis is shimmer ui.........</h2>
-        </>
+        <div className="Body" >
+            {Array(12).fill("").map((e,index)=><div key={index} className="shimmer"></div>)}
+    </div>
     )
 }
 
