@@ -38,7 +38,7 @@ const Body = () =>{
        <>
         <SearchBar restaurantFilter={restaurantFilter}/>
         <div className="Body" >
-            {(filteredRestaurant.length===0) ? <h1>Empty list</h1> : filteredRestaurant?.map((restaurant)=>{
+            {(filteredRestaurant.length===0) ? <h1>No Restaurant Found</h1> : filteredRestaurant?.map((restaurant)=>{
                 return <Link className="restaurantcard" to={"/restaurant/"+restaurant.data.id} key = {restaurant.data.id}><RestaurantCard  restaurant={restaurant.data}/></Link>;
            })}
         </div>
